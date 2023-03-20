@@ -8,7 +8,7 @@ router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../../public/notes.html'));
 });
 
-// * wildcard is always last; tells the site to redirect all other requests back to the index.html for security reasons.
+// * wildcard is always last; tells the site to redirect all other requests back to the index.html for security reasons (from tutor)
 router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../../public/index.html'));
 });

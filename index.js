@@ -18,7 +18,7 @@ app.use(express.json());
 //middleware function to handle incoming requests with a URL-encoded payload. This function parses the URL-encoded data and makes it available in the 'request.body' property of the request object.
 app.use(express.urlencoded({ extended: true }));
 
-// middleware function serve  HTML, CSS, and JavaScript files from the 'public' folder in the project directory.
+// middleware function serve HTML, CSS, and JavaScript files from the 'public' folder in the project directory.
 app.use(express.static('public'));
 
 //routes - put '/api' before '/' to elimate errors
