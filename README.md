@@ -1,6 +1,6 @@
 # Note Taker
 
-This project is a Note Taker application. The application allows users to write, save, and delete notes. Front end starter code was provided for this challenge and the back end was created with Express.js.
+This project is a Note Taker application. The application allows users to write a note title, detail, save, and delete notes. Front end starter code was provided for this challenge and the back end was created with Express.js.
 
 ## Installation
 
@@ -16,7 +16,7 @@ In the command line interface, run 'npm start', then go to http://localhost:3001
 
 ## Link to app
 
-[Video Link](https://youtu.be/JiwDQ8MsAho)
+[Heroku App link](https://radiant-badlands-32073.herokuapp.com/)
 
 ## Screenshots
 
