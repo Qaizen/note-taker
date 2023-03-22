@@ -1,4 +1,3 @@
-
 const router = require("express").Router();
 const db = require("../../db");
 
@@ -19,7 +18,7 @@ router.post("/notes", (req, res) => {
 //delete section
 router.delete("/notes/:id", (req, res) => {
   db.removeNote(req.params.id)
-    .then( () => {
+    .then(() => {
       res.json({
         ok: true,
       });
